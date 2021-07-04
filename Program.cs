@@ -16,9 +16,7 @@ namespace Grr
                 handler1
                 .Append(handler2)
                 .Append(handler3);
-                // .SetNext(handler4)
-
-
+                // .Append(handler4);
 
             var price = handler.GetPrice("dk1");
             Console.WriteLine(price.ToJson());
