@@ -2,6 +2,7 @@ using System;
 namespace Grr.PriceHandlers
 {
     // chain of responsibility pattern
+    // ABC: Abstract Base Class
     public abstract class ABCPriceHandler
     {
         protected ABCPriceHandler Next;
